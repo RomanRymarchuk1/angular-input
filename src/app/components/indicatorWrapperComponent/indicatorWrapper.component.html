@@ -1,0 +1,6 @@
+<div *ngIf="password | passwordStatus as styles" class="wrapper">
+  <app-indicator
+    *ngFor="let indicator of styles"
+    [indicator]="indicator"
+  />
+</div>
