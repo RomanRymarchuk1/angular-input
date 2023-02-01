@@ -1,0 +1,21 @@
+.wrapper {
+  position: relative;
+}
+
+.input {
+  width: 400px;
+  height: 40px;
+  font-size: larger;
+}
+
+.input-lable {
+  position: absolute;
+  top: -25px;
+}
+
+.eye-button {
+  position: absolute;
+  background: none;
+  border: none;
+  right: 10px;
+}

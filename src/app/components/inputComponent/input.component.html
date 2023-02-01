@@ -1,0 +1,10 @@
+<div class="wrapper">
+  <label class="input-lable">Password </label>
+
+  <input (ngModelChange)="modelChangeFn($event)"  [type]="showPassword ? 'text' : 'password'" class="input" [(ngModel)]="value" />
+ 
+  <button (click)="showPassword = !showPassword" class="eye-button">
+    <app-eye-svg *ngIf="!showPassword" />
+    <app-crossed-out-eye-svg *ngIf="showPassword" />
+  </button>
+</div>
