@@ -1,0 +1,7 @@
+<header>
+  <h1 class="title">{{ title | titlecase }}</h1>
+</header>
+<main class="wrapper">
+  <app-input (inputValue)="setValue($event)"></app-input>
+  <app-indicator-wrapper [password]="password"></app-indicator-wrapper>
+</main>
